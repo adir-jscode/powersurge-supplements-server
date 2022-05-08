@@ -74,7 +74,6 @@ async function run() {
     //UPDATE PRODUCT QUANTITY
     app.put("/products/:id", async (req, res) => {
       const newQuantity = { quantity: Number(req.body.quantity) }
-      console.log(newQuantity);
             const id = req.params.id;
             const data = req.body;
             const filter = { _id: ObjectId(id) };
