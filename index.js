@@ -5,8 +5,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 //middleware
-//powersurge
-// JsPp4kZUOv8xX5Ru
+
 app.use(cors());
 app.use(express.json());
 
